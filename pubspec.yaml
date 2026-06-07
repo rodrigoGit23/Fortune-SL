@@ -1,0 +1,37 @@
+name: suerte
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.6.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_fortune_wheel: ^1.3.2
+  intl: ^0.20.2
+  mysql1: ^0.20.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/fondo_login.png
+    - images/fondo_juego.png
+    - images/fondo_registro.png
+    - images/silueta_comida.png
+    - images/silueta_pelicula.png
+    - images/silueta_ciudad.png
+    - images/ranking.png
+    - images/tienda.png
+    - images/prueba.png
+    - images/register.png
+    - images/vale.png
+    - images/animal.png
+    - images/deporte.png
