@@ -5,12 +5,15 @@ Proyecto final del ciclo superior de Desarrollo de Aplicaciones Multiplataforma 
 
 ## Capturas
 
-| Login | Juego | Tienda | Ranking |
-|-------|-------|--------|---------|
+| Login |
+|-------|
 | <img width="417" height="865" alt="registroUsuario" src="https://github.com/user-attachments/assets/b5c7ca5b-d188-4d17-99e8-812f873dd90e" />
 | <img width="424" height="860" alt="inicio" src="https://github.com/user-attachments/assets/0dee856b-646c-44b8-8c48-2718163cb661" />
+| Juego |
 | <img width="414" height="849" alt="juego" src="https://github.com/user-attachments/assets/4c2a636d-0a75-4f27-a146-aa0c10981133" />
+| Tienda | 
 | <img width="397" height="834" alt="tienda" src="https://github.com/user-attachments/assets/f5d3d53e-c10e-494d-816f-3fabeb59d021" />
+| Ranking |
 |<img width="413" height="838" alt="ranking" src="https://github.com/user-attachments/assets/70092991-e290-4b27-8fb0-575f1934cf1d" />
 
 
