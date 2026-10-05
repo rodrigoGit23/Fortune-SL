@@ -5,22 +5,25 @@ Proyecto final del ciclo superior de Desarrollo de Aplicaciones Multiplataforma 
 
 ## Capturas
 
-<!-- Sube aquí 3 o 4 capturas: login, ruleta/juego, tienda y ranking.
-     En GitHub puedes arrastrarlas al editor y se insertan solas. -->
-
 | Login | Juego | Tienda | Ranking |
 |-------|-------|--------|---------|
-| (captura) | (captura) | (captura) | (captura) |
+| <img width="417" height="865" alt="registroUsuario" src="https://github.com/user-attachments/assets/b5c7ca5b-d188-4d17-99e8-812f873dd90e" />
+| <img width="424" height="860" alt="inicio" src="https://github.com/user-attachments/assets/0dee856b-646c-44b8-8c48-2718163cb661" />
+| <img width="414" height="849" alt="juego" src="https://github.com/user-attachments/assets/4c2a636d-0a75-4f27-a146-aa0c10981133" />
+| <img width="397" height="834" alt="tienda" src="https://github.com/user-attachments/assets/f5d3d53e-c10e-494d-816f-3fabeb59d021" />
+|<img width="413" height="838" alt="ranking" src="https://github.com/user-attachments/assets/70092991-e290-4b27-8fb0-575f1934cf1d" />
+
+
 
 ## Qué hace la app
 
-- **Registro e inicio de sesión** con validación de formularios (email, contraseña, usuario duplicado).
-- **Ruleta animada**: se gira deslizando el dedo y cae en un sector aleatorio.
-- **Teclado virtual y panel de letras** para adivinar frases por categorías (Película, Comida, Ciudad, Animal, Deporte), con varios niveles.
-- **Eventos especiales**: APUESTA, AZAR y PIERDES TODO.
-- **Tienda** donde se gastan las monedas ganadas: Pista Extra, Escudo y Anti-Quiebra.
-- **Ranking global** de jugadores ordenado por monedas.
-- **Logros** que se guardan en la base de datos.
+- **Registro e inicio de sesión** con validación de formularios (email, contraseña, usuario duplicado,caracteres incorrectos,cadenas incorrectas..).
+- **Ruleta animada**: se gira deslizando el dedo sobre la ruleta(o haciendo el mismo gesto con el cursor) y cae en un sector aleatorio ya sea valor monetario o evento especial.
+- **Teclado virtual y panel de letras** para adivinar frases por categorías con varios niveles (Película, Comida, Ciudad, Animal, Deporte) si te toca un valor monetario.
+- **Eventos especiales**: APUESTA, AZAR y PIERDES TODO(eventos especiales) , cada uno de ellos tiene una función diferente.
+- **Tienda** donde se gastan las monedas ganadas: Pista Extra, Escudo y Anti-Quiebra. Puedes comprar estas ayudas/mejoras para acertar más palabras y obtener el mayor número de monedas.
+- **Ranking global** de todos los jugadores ordenado por la cantidad de monedas de mayor a menor cantidad.
+- **Logros** que se guardan en la base de datos(primera compra , primer giro....).
 
 ## Tecnologías
 
@@ -63,7 +66,7 @@ lib/
 - **Conexión directa a MySQL desde la app.** Lo elegí por rapidez y sencillez en un proyecto académico, pero deja los datos de conexión expuestos en el cliente. En un entorno real habría que añadir una **API REST** intermedia.
 - Solo probado en Android.
 - Las frases del juego están escritas en el código; la idea es cargarlas desde la base de datos.
-- Posibles ampliaciones: multijugador, notificaciones y más categorías.
+- Posibles ampliaciones: multijugador, notificaciones y más categorías y niveles.
 
 ## Autor
 
